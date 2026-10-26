@@ -1,3 +1,4 @@
 # LoRa-Environmental-Monitoring-System
 An end to end, low power IoT solution for remote environment monitoring. This project features a custom-designed PCB, an ESP32-P4 micro-controller running a quantized War Strategy Optimization - Neural Network (WSO-NN) algorithm, and a full cloud data pipeline.
 # Project Overview
+This project was developed to solve the challenge of reliable, long-term environmental monitoring in remote outdoor locations. The system collects temperature, humidity, and barometric pressure, transmits the data via LoRaWAN (CN470), and visualizes it on a cloud platform. The core innovation is the WSO-NN (War Strategy Optimization - Neural Network) algorithm running directly on the microcontroller, which dynamically optimizes LoRa transmission parameters (Spreading Factor and TX Power) to maximize battery life and data reliability based on real-time conditions.
