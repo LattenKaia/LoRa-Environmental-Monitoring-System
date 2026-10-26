@@ -9,3 +9,4 @@ This project was developed to solve the challenge of reliable, long-term environ
 * Hardware design: Designed using a hybrid SMD/Through-Hole PCB assembly approach, housed in an IP66 enclosure with a breathable valve to prevent condensation.
 * Solar Power Management: Integrate a CN3791 MPPT charger with a 9V solar panel and 3.7V Li-ion battery.
 * Full Cloud Pipeline: Leverage ChirpStack, InfluxDB, ThingsBoard, and Grafana for data ingestion, storage, and visualization. 
+# System Architecture
