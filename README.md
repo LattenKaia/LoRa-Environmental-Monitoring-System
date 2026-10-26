@@ -10,7 +10,7 @@ This project was developed to solve the challenge of reliable, long-term environ
 * Solar Power Management: Integrate a CN3791 MPPT charger with a 9V solar panel and 3.7V Li-ion battery.
 * Full Cloud Pipeline: Leverage ChirpStack, InfluxDB, ThingsBoard, and Grafana for data ingestion, storage, and visualization. 
 # System Architecture
-## 2.1 Overall Architecture / 系统总体结构
+## Overall Architecture
 
 The system is composed of five layers from sensor to visualization. The WSO-NN algorithm runs directly inside the LoRa sensor node in the perception layer for edge intelligence.
 <img width="2889" height="2118" alt="LoRaWAN architecture" src="https://github.com/user-attachments/assets/8ec1a3c0-d279-43fa-aea0-d1a737e21d99" />
@@ -21,7 +21,7 @@ The system is composed of five layers from sensor to visualization. The WSO-NN a
 * Power: CN3791 MPPT Solar Charger, AP2112K-33 LDO regulator.
 * PCB: Custom 2-layer board designed in EasyEDA. Feature a solid ground pour on the bottom layer and a 3.3V copper pour on the top layer.
 # Software & Firmware
-* Language: C, C++ (Arduino Framework), Python (train WSONN model)
+* Language: C, C++ (Arduino Framework), Python (train WSONN model). Note: The firmware code, train wsonn model code is upload and attach above 
 * Algorithm: The neural network acts as a real-time surrogate for the WSO (War Strategy Optimization) algorithm. It takes 7 inputs(SNR, RSSI, Battery %, Packet Loss, Diversity, Stagnation, Complexity) and output 4 control parameters(Attack Ratio, Exploration, Mutation, Weight Decay).
 * Power Management: The LoRa Sensor node operates in a continuous loop with a 30-second uplink interval. (Deep sleep is currently disabled for testing purpose, during diployment, deepsleep will be activated to help save power consumption)
 # Cloud Platform
