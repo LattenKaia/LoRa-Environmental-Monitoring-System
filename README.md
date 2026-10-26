@@ -39,6 +39,10 @@ The backend is fully containerized using Docker and Docker Compose:
 *ChirpStack Dashboard*<img width="1897" height="1010" alt="ChirpStack 4" src="https://github.com/user-attachments/assets/bf65201f-d3d2-4f65-8995-556a5fa612df" /><br><br>
 *ThingsBoard*<img width="1910" height="1008" alt="ThingsBoard" src="https://github.com/user-attachments/assets/b0b52b5b-fe69-424e-8eda-90d61f838505" /><br><br>
 *Grafana Visualization*<img width="1909" height="1012" alt="Grafana 2" src="https://github.com/user-attachments/assets/eb89834f-db83-49e5-900d-1332919b788a" />
+## What I will improve and currently working on it
+1. Deep Sleep Integration: Currently, the ESP32 runs continuosly. Enabling deep sleep will drastically extend battery life for the sensor node.
+2. Direct MPPT Integration: Instead of using the waveshare module, I will place the CN3791 IC (Integraded Circuit) directly on my custom PCB to save space and reduce cost. I am currently designing the whole PCB, integrating all the component of the sensor node in one PCB (Printed Circuit Board). The below image is my current project I am working on, redesigning the LoRa Sensor node with all the electrical component in one small Print Circuit Board (PCB).<br><br>
+*LoRa Sensor node circuit diagram*<img width="777" height="551" alt="Sensor node PCB" src="https://github.com/user-attachments/assets/575c4ff0-20ca-4465-8b2d-c4a7891c93b7" />
 
 
 
