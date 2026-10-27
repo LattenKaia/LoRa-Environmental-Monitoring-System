@@ -24,7 +24,7 @@ The system is composed of five layers from sensor to visualization. The WSO-NN a
 *LoRa Sensor node*<img width="1536" height="2048" alt="LoRa Sensor node" src="https://github.com/user-attachments/assets/61dae78f-96b3-4568-97f7-87d8f91aff03" />
 ## Software & Firmware
 * Language: C, C++ (Arduino Framework), Python (train WSONN model). Note: The firmware code, train wsonn model code is upload and attach above 
-* Algorithm: The neural network acts as a real-time surrogate for the WSO (War Strategy Optimization) algorithm. It takes 7 inputs(SNR, RSSI, Battery %, Packet Loss, Diversity, Stagnation, Complexity) and output 4 control parameters(Attack Ratio, Exploration, Mutation, Weight Decay).
+* Algorithm: The neural network acts as a real-time surrogate for the WSO (War Strategy Optimization) algorithm. It takes 7 inputs(SNR, RSSI, Battery %, Packet Loss, Diversity, Stagnation, Complexity) and output 4 control parameters(Attack Ratio, Exploration, Mutation, Weight Decay). There are two files in the Firmware Source Code folder, the WSONN.ino file, which is the C++ Arduino code I uploaded to the LoRa sensor node I design, and the wsonn_model.h file, which is the header file I generated when training the wsonn model. The Train WSONN model folder contain the python code I use to train the WSONN (War Strategy Optimization - Neural Network) model. 
 * Power Management: The LoRa Sensor node operates in a continuous loop with a 30-second uplink interval. (Deep sleep is currently disabled for testing purpose, during diployment, deepsleep will be activated to help save power consumption)
 ## Cloud Platform
 The backend is fully containerized using Docker and Docker Compose: 
