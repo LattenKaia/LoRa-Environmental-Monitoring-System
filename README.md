@@ -13,7 +13,7 @@ This project was developed to solve the challenge of reliable, long-term environ
 ### Overall Architecture
 
 The system is composed of five layers from sensor to visualization. The WSO-NN algorithm runs directly inside the LoRa sensor node in the perception layer for edge intelligence.
-<img width="2889" height="2118" alt="LoRaWAN architecture" src="https://github.com/user-attachments/assets/8ec1a3c0-d279-43fa-aea0-d1a737e21d99" />
+<img width="2889" height="2118" alt="architecture" src="https://github.com/user-attachments/assets/163a553b-20b7-449d-8967-4b91c806c789" />
 ## Hardware Design
 * Microcontroller: ESP32-P4-M (That specific Microcontroller is chosen for because of its hardware FPU and large PSRAM to run the Neural Network)
 * LoRa Transceiver: Ai-Thinker RA-02 (SX1278)
