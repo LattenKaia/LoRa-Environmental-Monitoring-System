@@ -36,7 +36,7 @@ The backend is fully containerized using Docker and Docker Compose:
 *docker*<img width="1647" height="957" alt="docker" src="https://github.com/user-attachments/assets/e56eb392-83e1-4bfc-b941-beb673b153cb" /><br><br>
 *docker-compose up*<img width="1902" height="1055" alt="Powershell" src="https://github.com/user-attachments/assets/dcc07076-abee-4c80-aa75-82551f98d02c" /><br><br>
 *ChirpStack*<img width="1899" height="916" alt="Chirpstack" src="https://github.com/user-attachments/assets/65ab25c8-922c-493a-a128-73a3be6277b5" /><br><br>
-*ChirpStack Dashboard*<img width="1897" height="1010" alt="ChirpStack 4" src="https://github.com/user-attachments/assets/bf65201f-d3d2-4f65-8995-556a5fa612df" /><br><br>
+*ChirpStack Dashboard*<img width="1877" height="983" alt="chirpstack22" src="https://github.com/user-attachments/assets/d195f484-fa71-4ff3-8840-10e2378446bd" /><br><br>
 *ThingsBoard*<img width="1912" height="984" alt="github thingsboard" src="https://github.com/user-attachments/assets/90274352-fd96-4462-aa15-81e67a2b1120" /><br><br>
 *Grafana Visualization*<img width="1909" height="1012" alt="Grafana 2" src="https://github.com/user-attachments/assets/eb89834f-db83-49e5-900d-1332919b788a" />
 ## What I'll improve and currently working on it
